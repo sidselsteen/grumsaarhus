@@ -5,7 +5,7 @@
 * Plugin URI: https://sidselsteen.dk/grums/ 
 * Description: This is a WordPress Newletter Plugin based on HTML5, CSS, JS and PHP
 * Version: 0.6.0
-* Author: Sidsel Steen, Nellie Hoestrup 
+* Author: Sidsel Steen & Nellie Hoestrup 
 * Author: https://sidselsteen.dk/personalportfolio/
 * License: GPL2
 */ 
@@ -52,11 +52,11 @@ function newsletter_form()
 
     function register_styles_and_scripts_for_plugin() 
     {
-        wp_enqueue_style('fontAwesomCDN', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+    
+        wp_enqueue_style('CustomFontJosefineSlab','https://use.typekit.net/yag3jnf.css');
         
-        wp_enqueue_style('CustomFontMontserrat','https://fonts.googleapis.com/css?family=Montserrat:300,400,800&display=swap');
+        wp_enqueue_style('CustomFontDosis', 'https://fonts.googleapis.com/css?family=Dosis&display=swap'); 
         
-        wp_enqueue_style('CustomFontRoboto','https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap');
         
         wp_enqueue_style('CustomStylesheet',plugins_url('newsletterplugin/css/style.css'));
         
