@@ -11,3 +11,57 @@
  Tags:         To kolonner, Højre sidebar, Sidefod-widgets, Blog, Nyheder, Tilpasset baggrund, custom-menu, Indlægsformater, rtl-language-support, Fastgjort indlæg, Editor-stylesheet,       threaded-comments, translation-ready, buddypress, Egne farver, Udvalgte billeder, Fuld bredde, Temafunktioner, E-Commerce
  Text Domain:  oceanwpchildgrums
 */
+
+
+.elementor-32 .elementor-element.elementor-element-bfaa4e5 .elementor-heading-title {
+    font-family: josefin-slab, serif !important; 
+    font-size: 93px;
+}
+.elementor-32 .elementor-element.elementor-element-185ef5c .elementor-heading-title {
+font-family: josefin-slab, serif !important; 
+    font-weight: 400;
+    font-style: normal;
+    font-size: 39px;
+}  
+
+.elementor-32 .elementor-element.elementor-element-4cac64a .elementor-heading-title {
+   font-family: josefin-slab, serif !important; 
+    font-weight: 400;
+    font-style: normal;
+    font-size: 57px;
+}
+
+.elementor-32 .elementor-element.elementor-element-bfaa4e5 .elementor-heading-title {
+    font-family: josefin-slab, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 72px;
+}
+
+.elementor-32 .elementor-element.elementor-element-b4b6f8e .elementor-heading-title {
+  font-family: josefin-slab, serif !important; 
+    font-weight: 400;
+    font-style: normal;
+    font-size: 52px;}
+    
+    
+    .elementor-32 .elementor-element.elementor-element-a7efbf3 .elementor-text-editor {
+    font-family: 'Dosis', Helvetica, Arial, sans-serif;
+}
+
+
+
+.animateContainer {
+	position: relative; 
+	margin-bottom: 10px; 
+}
+
+.animateContainer iframe {
+	position: absolute; 
+	top: 0;
+	left: 0; 
+	width: 100%; 
+	height: 100%; 
+}
+
+
