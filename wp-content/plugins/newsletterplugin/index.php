@@ -36,7 +36,7 @@ function newsletter_form()
     $content .= '<input type="submit" id="submitBtn" name="submitBtn" value="Subscribe Newsletter!">';
     $content .= '</div>';
     $content .= '<div id="promotion-footer">';
-    $content .= '<p id="promotion-footer-text">Yes, I would like to receive I GRUMS\'s newsletter via e-mail. You can unsubscribe at any time. Read more!</p>';
+    $content .= '<p id="promotion-footer-text">Yes, I would like to receive I GRUMS\'s newsletter via e-mail. You can unsubscribe at any time!</p>';
     $content .= '</div>';
     $content .= '</form>';
     $content .= '</section>';
@@ -45,7 +45,7 @@ function newsletter_form()
     return $content;
     
 }
-    #This parameter is a self choosen name for a unique short-code. 
+    #This parameter is a self choosen name for a unique short-code. Second parameter is the name of the function that creates the newsletter
     add_shortcode('show_newsletter','newsletter_form');
 
    
@@ -69,7 +69,7 @@ function newsletter_form()
         wp_enqueue_script('CustomScript', plugins_url('newsletterplugin/js/script.js'), array('jquery'), null, true); 
     }
 
- #This parameter is the name of the function that creates the newsletter
+ 
     add_action('wp_enqueue_scripts','register_styles_and_scripts_for_plugin');
 
 
