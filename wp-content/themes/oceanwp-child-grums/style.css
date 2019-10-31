@@ -13,8 +13,167 @@
 */
 
 
+
+/* Menu font */ 
+
+#site-navigation-wrap .dropdown-menu >li >a, .oceanwp-mobile-menu-icon a, #searchform-header-replace-close {
+    font-family: 'Dosis', Helvetica, Arial, sans-serif;
+}
+
+
+
+
+/* Fonts */
+
+.elementor-widget-text-editor {
+    font-family: 'Dosis', Helvetica, Arial, sans-serif !important;
+}
+
+.elementor-32 .elementor-element.elementor-element-4a066db .elementor-text-editor{
+     font-family: josefin-slab, serif !important; 
+     font-weight: 400; 
+}
+
+
+
+
+/* SkinCARE - Blink animation */ 
+
+.blink {
+  animation: blink-animation 1.5s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1.5s steps(5, start) infinite;
+ 
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+
+
+
+/* We produce carefully */
+
+.elementor-32 .elementor-element.elementor-element-517626e.elementor-widget-heading .elementor-heading-title{
+     font-family: josefin-slab, serif !important; 
+     font-weight: 400; 
+}
+
+
+
+
+/* Ikonoverskrifter */ 
+
+.elementor-32 .elementor-element.elementor-element-2bcaab6.elementor-widget-heading .elementor-heading-title{
+    font-family: josefin-slab, serif !important; 
+     font-weight: 400; 
+}
+
+.elementor-32 .elementor-element.elementor-element-7efd387.elementor-widget-heading .elementor-heading-title {
+    font-family: josefin-slab, serif !important; 
+     font-weight: 400; 
+}
+
+
+.elementor-32 .elementor-element.elementor-element-f56e893.elementor-widget-heading .elementor-heading-title {
+    font-family: josefin-slab, serif !important; 
+     font-weight: 400; 
+}
+
+
+.elementor-32 .elementor-element.elementor-element-86e5d1c.elementor-widget-heading .elementor-heading-title{
+    font-family: josefin-slab, serif !important; 
+     font-weight: 400; 
+}
+
+
+.elementor-32 .elementor-element.elementor-element-5921699.elementor-widget-heading .elementor-heading-title{
+    font-family: josefin-slab, serif !important; 
+     font-weight: 400; 
+}
+
+
+
+
+
+/* Produkt afsnit - overskrifter */
+
+.elementor-32 .elementor-element.elementor-element-cd45cdf .elementor-text-editor{
+    font-family: josefin-slab, serif;
+     font-weight: 400;  
+}
+
+.elementor-32 .elementor-element.elementor-element-8834b5b.elementor-widget-heading .elementor-heading-title {
+    font-family: josefin-slab, serif;
+     font-weight: 400; 
+}
+
+.elementor-32 .elementor-element.elementor-element-d48a13b.elementor-widget-heading .elementor-heading-title{
+    font-family: josefin-slab, serif;
+     font-weight: 400; 
+}
+
+.elementor-32 .elementor-element.elementor-element-1b47f08.elementor-widget-heading .elementor-heading-title{
+    font-family: josefin-slab, serif; 
+     font-weight: 400; 
+}
+
+
+
+
+
+/* Produkt animation */
+
+/* Produkt 1*/ 
+.elementor-32 .elementor-element.elementor-element-9a6c284 .elementor-image img{
+  transition: transform .2s; 
+}
+
+.elementor-32 .elementor-element.elementor-element-9a6c284 .elementor-image img:hover {
+  transform: scale(1.1); /* Zoom */ 
+}
+
+/*Produkt 2 */ 
+.elementor-32 .elementor-element.elementor-element-fceabe8 .elementor-image img{
+     transition: transform .2s;
+}
+
+.elementor-32 .elementor-element.elementor-element-fceabe8 .elementor-image img:hover {
+  transform: scale(1.2); /* Zoom */ 
+}
+
+/* Produkt 3 */ 
+.elementor-32 .elementor-element.elementor-element-6223fe0 .elementor-image img{
+    transition: transform .2s; 
+}
+
+.elementor-32 .elementor-element.elementor-element-6223fe0 .elementor-image img:hover {
+  transform: scale(1.1); /* Zoom */ 
+}
+
+
+
+
+/* Knap */
+.elementor-button .elementor-button-text {
+    font-family: 'Dosis', Helvetica, Arial, sans-serif;
+}
+
+
+
+
+/* Fonts */
+
 .elementor-32 .elementor-element.elementor-element-bfaa4e5 .elementor-heading-title {
     font-family: josefin-slab, serif !important; 
+    font-weight: 400;
     font-size: 93px;
 }
 .elementor-32 .elementor-element.elementor-element-185ef5c .elementor-heading-title {
@@ -50,6 +209,18 @@ font-family: josefin-slab, serif !important;
 }
 
 
+
+/* 1% for the planet font */ 
+
+.elementor-32 .elementor-element.elementor-element-4596677.elementor-widget-heading .elementor-heading-title {
+    font-family: josefin-slab, serif !important;
+    font-weight: 400;
+}
+
+
+
+
+/* Indsætning af animationer - container */ 
 
 .animateContainer {
 	position: relative; 
